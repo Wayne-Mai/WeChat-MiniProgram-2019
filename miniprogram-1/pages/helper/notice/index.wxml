@@ -1,0 +1,35 @@
+<view class="contenter">
+
+  <view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+    <open-data type="userNickName"></open-data>
+</view>
+
+  <!--通知列表-->
+  <!-- 当前数组项的默认名为item -->
+  <view class="notice-list mb10 transition-duration-150 active-bg" bindtap="onNavigateTap" wx:for="{{data}}" wx:key="*this" data-id="{{item._id}}" data-url="detail?id={{item._id}}">
+    <text class="notice-list-content f18 mb5 lineText">{{item.title}}</text>
+    <text class="notice-list-content f16">{{item.remark}}</text>
+    <view class="notice-list-bottom mt10 flex grey">
+      <view class="people-msg sub">
+        <text class="iconfont icon-peoplefill linght"></text>
+        <text class="people-look ml10">{{item.click}}人已阅</text>
+      </view>
+      <view class="time">{{item.create_time}}</view>
+    </view>
+  </view>
+</view>
+
+<!--没有更多了-->
+<view class="nothing tc linght" hidden="{{hasMore}}">
+  <text>没有更多了</text>
+</view>
+
+<!--按钮-->
+<view class="flating-group">
+  <button class="transition-duration-150 active-bg" type="primary" bindtap="onNavigateTap" data-url="write">
+    <text class="iconfont icon-add"></text>
+  </button>
+</view>

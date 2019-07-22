@@ -1,0 +1,4 @@
+/* pages/qunmi/write-notice/write-notice.wxss */
+.notice{width: 670rpx;background: #fff;margin: 20rpx auto 0;border-radius: 6rpx;}
+.notice-title{height: 74rpx;line-height: 74rpx;padding-left: 20rpx;}
+.notice-content{width: 100%;min-height: 500rpx;padding: 20rpx;}

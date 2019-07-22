@@ -1,0 +1,83 @@
+page {
+  box-sizing: border-box;
+}
+
+
+.userinfo {
+  position: relative;
+  width: 750rpx;
+  height: 320rpx;
+  color: rgb(19, 2, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.userinfo-avatar {
+  overflow:hidden;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.userinfo text {
+  color: rgb(10, 1, 1);
+  font-size: 14px;
+  background-color: #0f0f0f;
+  border-radius:40%;
+}
+
+.notice-list {
+  min-height: 80px;
+  background: #fff;
+  margin: 0 auto 15px;
+  border-radius: 6rpx;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.notice-list-content {
+  display: block;
+  word-break: break-all;
+}
+
+.flating-group {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+}
+
+.flating-group button {
+  float: right;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #1aad19;
+  color: white;
+}
+
+.flating-group button::after {
+  border: 0;
+}
+
+.nothing {
+  margin: 10rpx auto 50rpx;
+  border-bottom: 2rpx solid #d2d2d2;
+}
+
+.nothing text {
+  background: #eee;
+  position: relative;
+  top: 24rpx;
+  padding: 0 20rpx;
+}

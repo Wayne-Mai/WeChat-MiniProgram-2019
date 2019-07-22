@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/helper/index",
+    "pages/user/user_index/index",
+    "pages/helper/notice/detail",
+    "pages/helper/notice/index",
+    "pages/helper/notice/read",
+    "pages/helper/notice/write",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#292929",
+    "selectedColor": "#09BB07",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/helper/index",
+        "text": "功能",
+        "iconPath": "images/tabbar/group_helper.png",
+        "selectedIconPath": "images/tabbar/group_helper_in.png"
+      },
+      {
+        "pagePath": "pages/user/user_index/index",
+        "text": "我",
+        "iconPath": "images/tabbar/user.png",
+        "selectedIconPath": "images/tabbar/user_in.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

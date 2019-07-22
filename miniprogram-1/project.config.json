@@ -1,0 +1,61 @@
+{
+	"description": "Project configuration file",
+  "cloudfunctionRoot": "./functions/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.4",
+	"appid": "wx3dcfe26001dc2b42",
+	"projectname": "miniprogram-1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "group",
+					"pathName": "pages/helper/index",
+					"query": "",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "G4_ut7_QhQc6Pmz4X9uZcnZhLA6Zklbjr5W00kvsowY@cr4dev",
+						"shareKey": "DU2GZILi7L9EFdg2i617TLNr8lEaJ2f7XqQuLhebAnqzebXQV6fWlZ25AWVQMaJE567X9gIRuRjyF1vZ1eumPw~~"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<!-- <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
+
+
+
+<view class="contenter">
+  <view class="group-list transition-duration-150 active-bg" bindtap="onNavigateTap" data-url="notice/index">
+    <view class="icontitle iconfont icon-tongzhi icon-green"></view>
+    <view class="list-content">
+      <text class="list-title">社团通知</text>
+      <text class="list-text">可以确认的群通知,可以查看谁收到了</text>
+    </view>
+    <view class="comein">
+      <text class="iconfont icon-youjiantou"></text>
+    </view>
+  </view>
+</view>

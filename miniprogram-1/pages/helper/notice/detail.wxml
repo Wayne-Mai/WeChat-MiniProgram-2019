@@ -1,0 +1,43 @@
+<view class="contenter">
+  <view class="notice-detail">
+    <view class="detail-content">
+      <view class="text-title gridXb f20 mb10 ">
+        <text>{{title}}</text>
+      </view>
+      <view class="text-content f18">
+        <text>{{remark}}</text>
+      </view>
+
+      <!--用户信息-->
+      <view class="notice-detail-user grey mt10 flex">
+        <view class="notice-user-msg sub">
+          <image class="user-img mr10" src="{{headimgurl}}"></image>
+          <text class="user-name lineText f14 mr5">{{nickname}}</text>
+          <text class="notice-time f14">{{create_time}}</text>
+        </view>
+        <view class="del f16">
+          <text class="iconfont icon-delete tc" bindtap="onDeleteTap"></text>
+        </view>
+      </view>
+    </view>
+    <view class="people-look grey">
+      <text class="iconfont icon-peoplefill linght"></text>
+      <text class="people-look-num ml10">{{click}}</text>
+      <text>人已确认收到</text>
+    </view>
+  </view>
+  <view class="flating-bottom">
+    <button class="green transition-duration-150 active-bg" bindtap="onShowShareTap">分享</button>
+    <button class="green transition-duration-150 active-bg" bindtap="bindtapWrite">创建新通知</button>
+  </view>
+
+  <!--分享弹出框-->
+  <view class="share-bg write" style="display:{{showShare?'block':'none'}}">
+    <view class="share-content f16 tc">
+      <view>点击右上角：
+        <text class="iconfont icon-fenxiangjiantou"></text>
+      </view>
+      <text>分享给你的小伙伴哦！</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<form bindsubmit="onPushSubmit">
+  <view class="contenter">
+    <!--通知标题-->
+    <view class="notice">
+      <input class="notice-title" placeholder="通知标题" name="title" />
+    </view>
+    <!--通知内容-->
+    <view class="notice">
+      <textarea class="notice-content" placeholder="通知正文（必填，4-140字之内）" name="remark" />
+    </view>
+    <!--按钮-->
+    <view class="m20"><button form-type="submit" type="primary" class="send-notice transition-duration-150" 
+    open-type="getUserInfo" bindgetuserinfo="getUserInfo" hover-start-time="200">发布通知</button></view>
+  </view>
+</form>

@@ -1,0 +1,70 @@
+.group-list {
+  position: relative;
+  margin: 20px auto 0;
+  background: #fff;
+  font-size: 0;
+  padding: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.group-list .icontitle {
+  width: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 64px;
+  float: left;
+  margin-right: 10px;
+}
+
+.list-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-title {
+  display: block;
+  color: #333;
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 68rpx;
+}
+
+.list-text {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 54rpx;
+}
+
+.comein {
+  position: absolute;
+  right: 15px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 64px;
+  color: #999;
+}
+
+.icontitle.icon-blue {
+  color: #4fa2fe;
+}
+
+.icontitle.icon-yellow {
+  color: #fb8930;
+  font-size: 52px;
+  line-height: 52px;
+}
+
+.icontitle.icon-purple {
+  color: #845bfa;
+}
+
+.icontitle.icon-red {
+  color: #ff7170;
+}
+
+.icontitle.icon-green {
+  color: #4fae70;
+}

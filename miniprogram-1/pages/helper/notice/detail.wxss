@@ -1,0 +1,99 @@
+.detail-content {
+  background: #fff;
+  margin: 20rpx auto;
+  padding: 15px;
+}
+
+.text-title {
+  line-height: 46rpx;
+  padding: 20rpx 0;
+}
+
+.text-content {
+  word-break: break-all;
+}
+
+.user-img {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+
+.user-name {
+  max-width: 360rpx;
+  line-height: 50rpx;
+}
+
+.notice-detail-user .del {
+  width: 70rpx;
+  line-height: 50rpx;
+}
+
+.people-look {
+  width: 710rpx;
+  margin: 0 auto;
+}
+
+.people-look-num {
+  color: #09bb07;
+}
+
+.share {
+  width: 180rpx;
+  line-height: 180rpx;
+  border-radius: 50%;
+  margin: 40rpx auto 120rpx;
+  background: #09bb07;
+}
+
+.crate-notice {
+  width: 750rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+}
+
+.share-bg {
+  width: 750rpx;
+  height: 100%;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.share-content {
+  display: inline-block;
+  width: 360rpx;
+  margin: 60rpx 60rpx 0 0;
+}
+
+.flating-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 5px 15px;
+  bottom: 0;
+}
+
+.flating-bottom::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.flating-bottom button {
+  display: inline-block;
+  width: 280rpx;
+  line-height: 70rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #09bb07;
+  background: #fff;
+}
+
+.flating-bottom button:nth-child(2) {
+  float: right;
+}

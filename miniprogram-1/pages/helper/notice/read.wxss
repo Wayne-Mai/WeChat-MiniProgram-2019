@@ -1,0 +1,19 @@
+/* pages/qunmi/read-notice/read-notice.wxss */
+
+.detail-content {width: 750rpx;padding: 40rpx;background: #fff;}
+
+.notice-detail-user {padding-top: 40rpx;}
+.user-img {width: 80rpx;height: 80rpx;border-radius: 50%;}
+.user-name {max-width: 360rpx;line-height: 80rpx;}
+
+/*.notice-time {
+  line-height: 80rpx;
+}*/
+.read-btn {width: 480rpx; margin: 40rpx auto 20rpx;}
+
+.praise {width: 710rpx;margin: 20rpx auto;padding: 20rpx;
+  /*background: #eee;*/
+}
+.praise-people {display: inline-block;width: 600rpx;font-size: 0;}
+.praise-people-img {width: 68rpx;height: 68rpx; display: inline-block;margin: 8rpx 8rpx 0 0;}
+.praise-people-img:nth-child(8n+8) {margin-right: 0;}
