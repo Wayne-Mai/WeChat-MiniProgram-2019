@@ -1,5 +1,12 @@
 # WeChat-MiniProgram-2019
 
+This is a mini-program under the developer platform of
+WeChat (alias weixin), a famous and the most popular chat
+app in China. As WeChat doesn't (and also not supposed to) offer
+the feature that "this message have been read", so it sometimes
+become annoyed for a chat group manager to confirm all the members have read an important notice. So I make this simple
+mini-program, which enable group members to confirm group notices, and write, read, delete etc.
+
 参考了网上的前端教程, 做了一个可以确认的群通知小程序.
 
 后台上做了点创新, 没有租用服务器处理request请求, 而是尝试了一下微信提供的云数据库, 云函数这些.
